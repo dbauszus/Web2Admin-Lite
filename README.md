@@ -12,15 +12,15 @@ The idea for this plugin was to offer the core user admin functionality only, wi
 
 I prefer to show the admin interface on its own and not within the web2py frame. I don't record the admin history and only want to see auth_user, auth_group and auth_membership. The web2admin link at the top returns to this view.
 
-![alt tag](https://ac91eafd1d847eb302b5d5d10d8914ace9cb786f.googledrive.com/secure/AH8CU7GYr6og2wKmEK1f_BSzcrHXXXOkk6yWrGd1QY3Ejn7GrUztqrH5To9rgJJXdduUtDaEaLcRC7WMud3SHAhxxVEFLSqaV5RnVCyM6X40APmhcXZNi0AirSkVFI4jiNLDLk7J3MbhM7GMIVVYyDh1ttXecffHwnE6WBHjbIkcyPOQ3MMtTFTsAMz1Seh4AQcXTckM7jgYUxzlUFX2AFqcxAB-lxH5MI0Stn_Ci2WQgjq0hfYnZ_1Hi0YoIlMJhcSFcCGkgqC79wZMWj2wLWRvoSA7huQOOrIgOT6o9PC-3-UylVG_t9k1_mqBuRFxmlfkI_3ZXb0xf_lq6A_08p-xE8KBQw9OpttBnQID7q-PjmzO64zSYsKnVbm7ANO-AObq-1jyzvoqMVd6uG-5xOj5tjtw3-quTjpMW6xiIfjSE4o4DSmCa6CtzvPIgK8bpY9F2JaqGXhhuEvtDGo1qwwfwBUN_RkMjcODp9Riu5CsaEtBCjqqtvJYM2ZMFblOEc1fhNPKY0zGv4EgqhOWNznTA0f-5iw_lN5qPs8FJT16Cbu66bWwwhBDb-lA54-mqlCCptGKQKRP/host/0B8HfmNU61LnANlpXVHdVU0Z5Szg/index.png)
+![Imgur](http://i.imgur.com/r7T2RIj.png)
 
 I use the bootstrap paper theme to show tables and forms. I only have one management role w2a_root and forms will always be opened for editing. In my use case there isn't a need to just view user accounts. I don't need to swap tables from this view and I don't require to export data from here.
 
-![alt tag](https://ac91eafd1d847eb302b5d5d10d8914ace9cb786f.googledrive.com/secure/AH8CU7ExT9W-eKvtdHoemAZa3ymJr83p-PueCqBi7uKo35Gm575wI_EZossul4gb6DNK3YRzSK8iGJ3RGlNMjf9yRCt9SZ4wLrjomAwDvGkpNWZEuNco848Ru0U3ICroG4BkZGy4KTCiyG_28Il08HKLeca9LekEySyTzYI2vmDxcTmondDmJIB4E80Vw4Jf35rFvPzKB0mBGx6fxObp42vhuqclqRPWIJ9I5TrKS2-KN_AaQ_uVhostfwxpbb6fc8qewUW7FINT_kCWnjAjaTPyx8VMkMi2BK1Bxz1cnHY1Sdf9cwZxl87KtpweK_R_ifcrNQpo6Wj7Z25pGTVKNKWo2PiLD4bE3IBM-6uosGuZeUQr9eIdytQmXeplblvjU6ypvJ8MiwmdQlqrB2VrEwS1IeB3L-Sng6_pv3uMyrZP1pKFzYW14o_O4gX_szhnpGZ3gSa4DbsDiaXWlaH9ZZ_8txcMMHh0nAV0UHhSiJT7TbT53mnM-Km95ALjFIRmoXLdb_rtuAZA8eZazSnKEmew6eOxP2saxNIeDylnd-IdBKKc04L2Ad0qDP8w0oCtmzcO02bN5qfB/host/0B8HfmNU61LnANlpXVHdVU0Z5Szg/table.png)
+![Imgur](http://i.imgur.com/8MnAUX1.png)
 
 The editing form is styled with the bootstrap paper theme.
 
-![alt tag](https://ac91eafd1d847eb302b5d5d10d8914ace9cb786f.googledrive.com/secure/AH8CU7Es9o4dWku3g4GDwU_M9xeJsOQ-hlwZiKQpOcHxoRFNTMoRXrlmzg0IeMTQvGFQ9CsjKoE_DCsD5hpLf_zDhYnTQxkmoRvLlTUGxAhYEAyUY_qXIKJvZe9A4uVYF-krRYetEGA9mWwPKGYCs25tSYTG3TphewN43ZwKq1ZtKofNzL5bPV92Dt2aZm7YtbTO3bBA9VS5wfeSueXA5aZkkxKQG5jfEvn01A51C-EYnCKSzuBwsgS2Mv8hzompWAFwec3nLB__I5pD37SXMYhdtqizrtQZpPUqcHtLgY3QD5nmlM81Cm2UCHfIwpgChRqLTKGKgOgvl5Qgna8am2XAmxBOtvj9vWZ68KkUVmEsq3x20tItzMNxiFp5RfRhPxeGF0g-jINYOx7KQiSLdxcwddG24p8PdSEMfyO2UTXrwNL-IbG7gsNoL40GUm5xGTVI-imr5V_Xhmnt5HXNAmUYeSxuHJ6TC6b6fzH8F7Kt5A2xplMLp13Uchse1DTm5sCdnZS9CyVmiPKg2j6hi953RqarlIBY8a2cWdAr55tL7MxAIbCBP4UoBTpmWdZWaHuyyTfoK2Cd/host/0B8HfmNU61LnANlpXVHdVU0Z5Szg/edit.png)
+![Imgur](http://i.imgur.com/4xvyYps.png)
 
 The plugin can be downloaded here.
 [Web2Admin-Lite plugin](https://drive.google.com/uc?export=download&id=0B8HfmNU61LnARW0waV9hc1ZadUE)
