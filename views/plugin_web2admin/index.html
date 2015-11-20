@@ -1,0 +1,19 @@
+{{extend 'plugin_web2admin/layout.html'}}
+
+        {{if tables:}}
+            <table>
+                <tbody>
+                {{for table in tables:}}
+                <tr>
+                    <td>
+                        <a href="{{=URL('plugin_web2admin', 'view_table', args=table)}}">
+                        {{=table}}
+                        </a>
+                    </td>
+                </tr>
+                {{pass}}
+                </tbody>
+            </table>
+        {{else:}}
+            <p>{{=T('Sorry, you do not have permission to access any tables.')}}</p>
+        {{pass}}
