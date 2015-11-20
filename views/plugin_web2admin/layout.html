@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>{{=response.title or request.application}}</title>
+    <meta charset="utf-8"/>
+    <meta name="application-name" content="{{=request.application}}"/>
+    <link type="text/css" rel="stylesheet" href="{{=URL('static','plugin_web2admin/css/bootstrap.paper.css')}}"/>
+    <link type="text/css" rel="stylesheet" href="{{=URL('static','plugin_web2admin/css/plugin_web2admin.css')}}"/>
+    <script type="text/javascript" src="{{=URL('static','plugin_web2admin/js/jquery.js')}}"></script>
+    <script type="text/javascript" src="{{=URL('static','plugin_web2admin/js/web2py.js')}}"></script>
+    <script type="text/javascript">
+        var w2p_ajax_confirm_message = "{{=T('Are you sure you want to delete this object?')}}";
+        var w2p_ajax_disable_with_message = "{{=T('Working...')}}";
+        var w2p_ajax_date_format = "{{=T('%Y-%m-%d')}}";
+        var w2p_ajax_datetime_format = "{{=T('%Y-%m-%d %H:%M:%S')}}";
+        var ajax_error_500 = '{{=T.M('An error occured, please [[reload %s]] the page') % URL(args=request.args, vars=request.get_vars) }}'
+    </script>
+</head>
+<body>
+<div class="container">
+    <section id="main" class="main row">
+        <div class="span12">
+            <a href="{{='/%s/plugin_web2admin' % request.application}}">web2admin</a>
+            <p></p>
+            {{block center}}
+            {{include}}
+            {{end}}
+        </div>
+    </section>
+</div>
+</body>
+</html>
