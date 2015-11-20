@@ -1,0 +1,69 @@
+html, body {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+fieldset {
+    border: none;
+}
+
+span, input, select, textarea, button, label, a {
+    display: inline;
+}
+
+.main {
+    padding: 20px 0 50px;
+}
+
+.web2py_grid .row_buttons a, .web2py_paginator ul li a, .web2py_search_actions a, .web2py_console input[type="submit"], .web2py_console input[type="button"], .web2py_console button {
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 2px;
+    padding: 3px 5px;
+}
+
+.web2py_table {
+    clear: both;
+    display: block;
+}
+
+.web2py_grid table {
+    width: 100%;
+}
+
+.web2py_grid thead th, .web2py_grid tfoot td {
+    background-color: #eaeaea;
+    padding: 10px 5px;
+}
+
+.web2py_grid tbody td {
+    padding: 2px 5px;
+    vertical-align: middle;
+}
+
+.web2py_grid tr.odd {
+    background-color: #f9f9f9;
+}
+
+.web2py_counter {
+    float: right;
+    text-align: right;
+}
+
+.web2py_console  {
+    margin-bottom: 10px;
+}
+
+.delete {
+    margin-right: 10px !important;
+}
